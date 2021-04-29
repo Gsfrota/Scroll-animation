@@ -6,6 +6,9 @@ font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
 body{
     background-color:azure;
 }
+/***
+CONTAINERS PRINCIPAIS
+***/
 header{
     
     background:rgb(173, 92, 228);
@@ -21,6 +24,7 @@ header{
     padding:20px;
     align-items:center;
     
+    
 }
 #mainc{
     padding:20px;
@@ -31,6 +35,7 @@ header{
     background-color:rgb(255, 255, 255);
     width:700px;
     box-shadow: 1px 1px 1px 1px rgba(0,0,0,0.1);
+    margin-bottom: 200px;
 }
 #asideD{
     width:300px;
@@ -56,4 +61,34 @@ header{
     background-color:rgb(215, 240, 250);
     text-align:left;
     box-shadow: 0px 5px 5px rgba(0, 0, 0, 0);
+}
+
+#footer{
+    text-align:center;
+    font-size:5px
+}
+/***
+ CONTAINERS PRINCIPAIS END
+***/
+
+
+/****************
+ANIMAÇÃO 
+********************************/
+
+[data-anime]{
+    opacity:0;
+    transition:.3s;
+}
+
+[data-anime="left"]{
+    transform: translate3d(-50px, 0, 0);
+}
+[data-anime="right"]{
+    transform: translate3d(50px, 0, 0);
+} 
+
+[data-anime].animate{
+    opacity:1;
+    transform: translate3d(0px, 0px, 0px);
 }
