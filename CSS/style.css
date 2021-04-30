@@ -9,57 +9,58 @@ body{
 /***
 CONTAINERS PRINCIPAIS
 ***/
+
+/*Cabeçalho*/
 header{
     
     background:rgb(173, 92, 228);
     width: 100%;
     height:100;
     line-height: 100px;
-    text-align:center
-}
+    text-align:center;
+    margin-bottom:50px;
+} /*Cabeçalho*/
+
 #cpai{
     justify-content:space-between;
     display: flex;
     flex-direction:row-reverse;
     padding:25px;
+    margin-bottom: 20px;
     
 }
 #mainc{
     padding:20px;
-    display: flex;
-    align-items: center;
-    flex-direction:column;
+    text-align:center;
     border-radius: 1.5%;
-    background-color:rgb(214, 4, 4);
-    width:700px;
+    background-color:rgb(248, 252, 247);
+    width:600px;
+    min-width: 400px;
     box-shadow: 1px 1px 1px 1px rgba(0,0,0,0.1);
-    margin-bottom: 200px;
-    border:0.5px solid grey;
+    margin: 20px;
+    border:1px solid grey;
 }
 #asideD{
     width:300px;
-    padding: 15px;
-    
-    margin-right: 50px;
-   
+    min-width: 200px;
+    padding: 2%;
+    border-radius: 1.5%;
     background-color:rgb(215, 240, 250);
     text-align:center;
-    box-shadow: 10px 5px 5px rgba(0, 0, 0, 0.363);
-    
+    box-shadow: 1px 1px 1px 1px rgba(0,0,0,0.1);
+    overflow:hidden;
+   
 }
 
 
 #assideE{
-    
     width:300px;
+    min-width: 200px;
     padding: 15px;
-    display:flex;
-    justify-content:flex-start;
-    flex-direction:column;
-   
-    background-color:rgb(32, 141, 184);
-    text-align:left;
-    box-shadow: 0px 5px 5px rgba(0, 0, 0, 0);
+    border-radius: 1.5%;
+    background-color:rgb(215, 240, 250);
+    text-align:center;
+    box-shadow: 1px 1px 1px 1px rgba(0,0,0,0.1);
 }
 
 #footer{
